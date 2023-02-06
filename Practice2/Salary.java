@@ -17,6 +17,7 @@ public class Salary {
         }
 
         System.out.println("Salary due: RM" + String.format("%.2f", hours));
+        input.close();
     }
 
 }

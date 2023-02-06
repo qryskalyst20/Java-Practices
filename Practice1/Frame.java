@@ -12,6 +12,6 @@ public class Frame{
 
         System.out.println("Length: " + String.format("%.2f", length) + "cm");
         System.out.println("Width: " + String.format("%.2f", width) + "cm");
-
+        input.close();
     }
 }
